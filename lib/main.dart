@@ -20,6 +20,14 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[400],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5,),
@@ -28,6 +36,14 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[200],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -36,6 +52,14 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[400],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -44,6 +68,14 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[200],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -52,6 +84,14 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[400],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -60,6 +100,14 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[200],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -67,6 +115,14 @@ class MyApp extends StatelessWidget {
               height: 100,
             ),Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[400],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -75,6 +131,14 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[200],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
@@ -83,23 +147,26 @@ class MyApp extends StatelessWidget {
             ),
             Container(
              decoration: BoxDecoration(
+               boxShadow: [
+                  BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 2.0,
+                    spreadRadius: 0.0,
+                    offset: Offset(2.0, 2.0),
+                  ),
+                ],
 		          color: Colors.blue[400],
 		          borderRadius: BorderRadius.all(Radius.circular(30.0))),
               margin: EdgeInsets.all(5),
               child: Center(child: Text('hcsvb'),),
               height: 100,
-            ),
-            
-            
-            
+            ),  
           ],
         ),
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.search_rounded),
           onPressed: () {
-
-          },
-          
+          },  
         ), 
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         bottomNavigationBar: BottomAppBar(
