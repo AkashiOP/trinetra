@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'loginV2.dart';
 
-void main() => runApp(MyApp()); 
+void main() => runApp(MaterialApp(
+    home: LoginV2(),
+)
+  ); 
 
 class MyApp extends StatelessWidget {  
   @override  
@@ -189,6 +193,13 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.search_rounded),
           onPressed: () {
+          Navigator.of(context).push(
+ MaterialPageRoute(builder: (context){
+    return LoginV2();
+ },),
+);
+
+           // Navigator.push(context, MaterialPageRoute<void>(builder: ((context)=>Login())));
           },  
         ), 
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
