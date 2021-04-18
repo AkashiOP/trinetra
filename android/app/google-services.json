@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "660042140854",
+    "project_id": "trinetra-dfa68",
+    "storage_bucket": "trinetra-dfa68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660042140854:android:21cc28e88f2db2a3acaa17",
+        "android_client_info": {
+          "package_name": "com.example.trinetra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660042140854-9vhqcqkvsnq7sbb6bl2haabv7kpvt5l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trinetra",
+            "certificate_hash": "4e62f9f004351c0fad859941a4d1235f40a8456c"
+          }
+        },
+        {
+          "client_id": "660042140854-6hjen252kkgvsucqp3949asndrgs26ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLGWsrWRi-1xfV_nZnSnb3pTNowtGIrUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660042140854-6hjen252kkgvsucqp3949asndrgs26ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
